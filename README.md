@@ -43,3 +43,13 @@ It brings **structure and transparency** to grassroots saving initiatives throug
 ---
 
 ## 📁 Project Structure
+
+twigaplan/
+├── index.html # Home page
+├── dashboard.html # Group overview dashboard
+├── savings.html # Savings tracker page
+├── /css/
+│ └── styles.css # Main styling file
+├── /assets/
+│ └── images/ # Logos and images (optional)
+└── README.md # Project description

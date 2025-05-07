@@ -100,7 +100,7 @@ It brings **structure and transparency** to grassroots saving initiatives throug
 
 ## 👤 Author
 
-Developed by [UFITINEMA Junior Charte] – Full Stack Developer  
+Developed by **UFITINEMA Junior Charte** – Full Stack Developer  
 This project was created for an academic assignment to showcase how IT can solve local problems.
 
 ---

@@ -1,90 +1,45 @@
-# twigaPlan
+# TwigaPlan – Group Saving & Planning Web App
 
-Project Title: TwigaPlan – Group Saving & Planning Web App
-Problem Statement:
-In Rwanda, many informal community savings groups (such as youth clubs, women’s groups, student associations, or village-based cooperatives) face challenges with organizing their group contributions, tracking progress toward goals, and keeping members updated on tasks and meetings. These groups often rely on manual notebooks, word of mouth, or WhatsApp messages — leading to errors, missed deadlines, and a lack of accountability.
+TwigaPlan is a simple, mobile-responsive web application designed to help informal savings groups in Rwanda organize, track, and plan their contributions and tasks more effectively. It is tailored for youth-led groups, cooperatives, student clubs, and community-based saving circles such as "Ibimina."
 
-How TwigaPlan Solves the Problem:
-TwigaPlan provides a simple web-based platform for group members to collaboratively:
+---
 
-Set a savings goal, track contributions, and monitor overall progress.
+## 🚨 Problem Statement
 
-Plan and assign group tasks (e.g., organizing events or collecting funds).
+In Rwanda, many community savings groups face challenges managing their contributions and keeping members updated using informal tools like notebooks, WhatsApp messages, or verbal reminders. These methods lead to poor tracking, missed deadlines, and lack of accountability.
 
-Stay informed through a central dashboard showing updates, upcoming meetings, and group activities.
+---
 
-This solution makes group savings more transparent, organized, and efficient — especially for youth-led or low-resource groups with access to mobile phones or cyber cafes.
+## ✅ Solution
 
-Target Users:
-Youth-led savings groups
+TwigaPlan provides a user-friendly platform for:
 
-Women’s cooperatives
+- Setting group savings goals and tracking contributions
+- Assigning and monitoring tasks for group members
+- Offering a visual dashboard for up-to-date group activity
 
-Village-based “Ibimina” saving circles
+It brings **structure and transparency** to grassroots saving initiatives through a fully frontend-based web solution.
 
-Student clubs or academic associations
+---
 
-Community development groups with rotating contributions
+## 👥 Target Users
 
-Tech Stack:
-HTML5
+- Youth-led savings clubs
+- Women's cooperatives
+- Community-based “Ibimina”
+- Student associations
+- Any group organizing shared financial goals
 
-CSS3 (with a modern responsive layout)
+---
 
-Google Fonts (Nunito or Poppins)
+## 💻 Built With
 
-No backend (prototype-level)
+- HTML5
+- CSS3
+- Responsive Layout (Flexbox/Grid)
+- Google Fonts (Nunito / Poppins)
+- No backend integration (frontend prototype)
 
-Implemented Pages:
+---
 
-1. Home Page (Index.html):
-   Welcomes new users with a clean layout.
-
-Features:
-
-Hero banner with slogan: “Plan Together. Save Better.”
-
-Call-to-action buttons: "Get Started", "Learn More"
-
-Overview of key features
-
-How it works section
-
-Footer with navigation and social links
-
-2. Dashboard Page:
-   Displays a real-time overview of group activities.
-
-Features:
-
-Welcome message with group name
-
-Summary cards: savings progress, next meeting, pending tasks
-
-Recent activity feed (e.g., “Marie contributed 5,000 RWF”)
-
-Quick buttons: Add Task, Add Meeting, Add Contribution
-
-3. Savings Tracker Page:
-   Allows members to manage and track group contributions.
-
-Features:
-
-Summary of savings goal vs. amount saved
-
-Visual progress bar
-
-Contribution entry form (name, amount, date, notes)
-
-Contribution history table (most recent first)
-
-User Experience Design:
-Color scheme: green (growth, trust), white (cleanliness), soft gray
-
-Font: Poppins or Nunito for readability and friendliness
-
-Mobile-responsive design for accessibility via phones
-
-Rounded cards and clean UI for a modern feel
-
-This project demonstrates the power of frontend development in solving local community problems. It also lays the foundation for future enhancements such as authentication, real-time updates, and database integration.
+## 📁 Project Structure

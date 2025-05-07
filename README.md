@@ -44,10 +44,6 @@ It brings **structure and transparency** to grassroots saving initiatives throug
 
 ---
 
-## 📁 Project Structure
-
----
-
 ## 📄 Pages Overview
 
 ### 1. 🏠 Home Page (`index.html`)
@@ -104,7 +100,7 @@ It brings **structure and transparency** to grassroots saving initiatives throug
 
 ## 👤 Author
 
-Developed by [Your Name] – Frontend Developer & Student in Rwanda  
+Developed by [UFITINEMA Junior Charte] – Full Stack Developer  
 This project was created for an academic assignment to showcase how IT can solve local problems.
 
 ---

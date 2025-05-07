@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dashboard - TwigaPlan</title>
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&family=Poppins:wght@500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css"
+    />
+
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <header class="top-nav">
+      <div class="nav-container">
+        <div class="logo">
+          <a href="index.html">TwigaPlan</a>
+        </div>
+        <nav class="dashboard-nav">
+          <ul>
+            <li><a href="#" class="active">Dashboard</a></li>
+            <li><a href="savings.html">Savings</a></li>
+          </ul>
+        </nav>
+        <div class="user-info">
+          <span class="group-name">[Group Name]</span>
+          <i class="fas fa-user-circle user-icon"></i>
+          <button class="mobile-menu-toggle" aria-label="Toggle Menu">
+            <i class="fas fa-bars"></i>
+          </button>
+        </div>
+      </div>
+    </header>
+
+    <main class="dashboard-main">
+      <div class="container">
+        <section class="welcome-banner">
+          <h1>
+            Welcome back, <span class="dynamic-group-name">[Group Name]</span>!
+          </h1>
+          <p>Here's what's happening with your group today.</p>
+        </section>
+
+        <section class="overview-section">
+          <div class="overview-grid">
+            <div class="card savings-card">
+              <h3>Savings Progress</h3>
+              <p class="goal">Goal: 500,000 RWF</p>
+              <p class="saved">Saved: 280,000 RWF</p>
+              <div class="progress-bar-container">
+                <div class="progress-bar" style="width: 56%">56%</div>
+              </div>
+            </div>
+
+            <div class="card meeting-card">
+              <h3>Next Meeting</h3>
+              <p><i class="far fa-calendar-alt"></i> May 10, 2025, 2:00 PM</p>
+              <p><i class="fas fa-map-marker-alt"></i> Community Hall</p>
+              <a href="#" class="btn btn-secondary btn-small">View Agenda</a>
+            </div>
+
+            <div class="card tasks-card">
+              <h3>Pending Tasks (This Week)</h3>
+              <p><strong>3 tasks</strong> due soon.</p>
+              <ul class="task-list">
+                <li>
+                  Buy meeting notebooks
+                  <span class="due-date">(Due: May 7)</span>
+                </li>
+                <li>
+                  Collect April contributions
+                  <span class="due-date">(Due: May 9)</span>
+                </li>
+                <li>
+                  <em><a href="#">+1 more task...</a></em>
+                </li>
+              </ul>
+              <a href="#" class="btn btn-secondary btn-small">View All Tasks</a>
+            </div>
+          </div>
+        </section>
+
+        <section class="main-content-row">
+          <div class="activity-feed card">
+            <h2><i class="fas fa-history"></i> Recent Activity</h2>
+            <ul class="feed-list">
+              <li class="feed-item">
+                <span class="activity-desc"
+                  ><i class="fas fa-coins feed-icon green"></i>Alice contributed
+                  5,000 RWF</span
+                >
+                <span class="timestamp">1h ago</span>
+              </li>
+              <li class="feed-item">
+                <span class="activity-desc"
+                  ><i class="fas fa-clipboard-list feed-icon blue"></i>New task
+                  added: Buy notebooks</span
+                >
+                <span class="timestamp">3h ago</span>
+              </li>
+              <li class="feed-item">
+                <span class="activity-desc"
+                  ><i class="fas fa-user-plus feed-icon gray"></i>David joined
+                  the group</span
+                >
+                <span class="timestamp">Yesterday</span>
+              </li>
+              <li class="feed-item">
+                <span class="activity-desc"
+                  ><i class="far fa-calendar-check feed-icon green"></i>Next
+                  meeting set for May 10</span
+                >
+                <span class="timestamp">2 days ago</span>
+              </li>
+              <li class="feed-item">
+                <span class="activity-desc"
+                  ><i class="fas fa-coins feed-icon green"></i>John contributed
+                  4,500 RWF</span
+                >
+                <span class="timestamp">2 days ago</span>
+              </li>
+            </ul>
+            <a href="#" class="view-all-activity">View All Activity</a>
+          </div>
+
+          <div class="quick-actions card">
+            <h2><i class="fas fa-bolt"></i> Quick Actions</h2>
+            <div class="action-buttons">
+              <button class="btn btn-primary">
+                <i class="fas fa-plus-circle"></i> Add Contribution
+              </button>
+              <button class="btn btn-primary">
+                <i class="fas fa-tasks"></i> Create Task
+              </button>
+              <button class="btn btn-primary">
+                <i class="far fa-calendar-plus"></i> Add Meeting
+              </button>
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+  </body>
+</html>

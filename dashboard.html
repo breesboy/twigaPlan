@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="UTF-8" />
@@ -149,5 +149,16 @@
         </section>
       </div>
     </main>
+    <script>
+      // --- Mobile Menu Toggle ---
+      const menuToggle = document.querySelector(".mobile-menu-toggle");
+      const dashboardNav = document.querySelector(".dashboard-nav");
+
+      if (menuToggle && dashboardNav) {
+        menuToggle.addEventListener("click", () => {
+          dashboardNav.classList.toggle("active");
+        });
+      }
+    </script>
   </body>
 </html>
